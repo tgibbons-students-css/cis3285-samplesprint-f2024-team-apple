@@ -4,6 +4,7 @@
     {
         public MessageRecord(int roomID, string authorName, string text)
         {
+            //Editing -- Miles L
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -17,6 +18,7 @@
 
         public string Text
         {
+            //Editing -- Miles L
             get;
             private set;
         }
