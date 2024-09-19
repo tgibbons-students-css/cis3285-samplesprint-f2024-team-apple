@@ -4,7 +4,7 @@
     {
 
         //As a message posting user, I want to create rooms for categorizing conversations -- Miles L
-
+        // Inocent
 
         public RoomRecord(string name, int roomId)
         {

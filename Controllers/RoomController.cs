@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
     public class RoomController : Controller
-    {
+    {   
         // GET: RoomController
         public ActionResult Index()
         {
@@ -44,9 +44,10 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Edit/5
         public ActionResult Edit(int id)
         {
+        
             return View();
         }
-
+        // Inocent 
         // POST: RoomController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -61,7 +62,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
                 return View();
             }
         }
-
+        //Inocent
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
         {
