@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Humanizer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
+
+    //As a message posting user, I want to create rooms for categorizing conversations -- Miles L
+
     public class RoomController : Controller
     {
         // GET: RoomController

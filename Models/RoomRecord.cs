@@ -2,6 +2,10 @@
 {
     public class RoomRecord
     {
+
+        //As a message posting user, I want to create rooms for categorizing conversations -- Miles L
+
+
         public RoomRecord(string name, int roomId)
         {
             Name = name;
