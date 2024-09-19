@@ -14,12 +14,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+            // "As a message reading user, I want to view a list of rooms that represent conversations."
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            // "As a message reading user, I want to view a list of rooms that represent conversations."
             return View();
         }
 
