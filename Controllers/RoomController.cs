@@ -52,6 +52,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            //Miles L -- Editing
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -65,6 +66,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
         {
+            //Miles L -- Editing
             return View();
         }
 
