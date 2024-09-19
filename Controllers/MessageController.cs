@@ -14,14 +14,16 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
-            // "As a message reading user, I want to view a list of rooms that represent conversations."
+            // Changes Sprint 1 -- "As a message reading user, I want to view a list of rooms that represent conversations." -- Jeffrey Kayfes
+            // Changes Sprint 2 -- "As a message reading user, I want to filter message content so that it is appropriate." -- Jeffrey Kayfes
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
-            // "As a message reading user, I want to view a list of rooms that represent conversations."
+            // Changes Sprint 1 -- "As a message reading user, I want to view a list of rooms that represent conversations." -- Jeffrey Kayfes
+            // Changes Sprint 2 -- "As a message reading user, I want to filter message content so that it is appropriate." -- Jeffrey Kayfes
             return View();
         }
 
