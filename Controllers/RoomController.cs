@@ -4,9 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CIS3285_Unit3Sample_2024.Controllers
 {
-
-    //As a message posting user, I want to create rooms for categorizing conversations -- Miles L
-
     public class RoomController : Controller
     {
         // GET: RoomController
@@ -18,12 +15,14 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Details/5
         public ActionResult Details(int id)
         {
+            //Miles L -- Editing
             return View();
         }
 
         // GET: RoomController/Create
         public ActionResult Create()
         {
+            //Miles L -- Editing
             return View();
         }
 
