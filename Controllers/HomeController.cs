@@ -12,7 +12,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             _logger = logger;
         }
-
+        
         public IActionResult Index()
         {
             return View();
